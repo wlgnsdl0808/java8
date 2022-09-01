@@ -4,6 +4,8 @@ package sec1;
 public class Ex1 {
 
 	public static void main(String[] args) {
+		//main(){} : main 메서드
+		//main의 괄호 () 안에 있는 args는 매개변수
 		System.out.println("하이~! 자바~!");
 		Ex2 ex2 = new Ex2();
 		ex2.method1();
