@@ -9,7 +9,6 @@ public class Print2 {
 		System.out.printf("반지름이 %d인 원은 원주율 %f를 반영하여 원의 넓이가 %f 임. %s의 규칙",a ,b, a*a*b, c);
 		System.out.printf("%n10진수 %d는 8진수로 %o 임", a ,a);
 		System.out.printf("%n10진수 %d는 16진수로 %x 임", a ,a);
-		System.out.println("");
 		
 	}
 
