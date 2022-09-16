@@ -1,0 +1,18 @@
+package sec;
+
+public class Type3 {
+
+	public static void main(String[] args) {
+		String name ="kim";
+		char[] irum ={'k','i','m'};
+		String nick ="kim";
+		String lans = new String("kim");
+		System.out.println(name);
+		System.out.println(irum);
+		//System.out.println(name==irum);
+		System.out.println(name==nick);
+		System.out.println(name!=nick);
+		System.out.println(name==lans);
+	}
+
+}
