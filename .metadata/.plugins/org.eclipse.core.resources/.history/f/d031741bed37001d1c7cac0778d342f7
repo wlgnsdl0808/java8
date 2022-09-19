@@ -1,0 +1,37 @@
+package sec1;
+
+public class MemberController {
+	Member mem = new Member();
+	boolean log = false;
+	
+	public void join(String id, String password, String name)
+	{
+		mem.setId(id);
+		mem.setPassword(password);
+		mem.setName(name);
+	}
+	public void login()
+	{
+		if(mem.getId().equals(id) && mem.getPassword().equals(password) && mem.getName().equals(name)){
+			log=true;
+			System.out.println(id+"님이 로그인 되었습니다.");
+		}
+		else{
+			log=false;
+			System.out.println("로그인 실패하셨습니다.");
+		}
+	} 
+	public void info()
+	{
+		if(log)
+		{
+			System.out.println("아이디 : "+mem.getId());
+			System.out.println("아이디 : "+mem.getPassword());
+			System.out.println("아이디 : "+mem.getName());
+		}
+		else
+		{
+			System.out.println("로그인 하지 않으셨습니다.");
+		}
+	}
+}
