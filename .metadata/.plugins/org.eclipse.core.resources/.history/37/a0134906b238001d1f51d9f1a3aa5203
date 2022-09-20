@@ -1,0 +1,12 @@
+package sec2;
+
+public class Stdent {
+	
+	String name;
+	int kor;
+	int eng;
+	int mat;
+	
+	public Student
+
+}
