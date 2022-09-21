@@ -4,9 +4,14 @@ public class StudentEx {
 
 	public static void main(String[] args) {
 
-		Student stu = new Student();
+		Student stu = new Student("김기태",90,80,90);
 		
-		System.out.println("");
+		stu.getName();
+		stu.calcTot();
+		stu.calcAvg();
+		stu.calcHak();
+		stu.calcRes();
+
 	}
 
 }

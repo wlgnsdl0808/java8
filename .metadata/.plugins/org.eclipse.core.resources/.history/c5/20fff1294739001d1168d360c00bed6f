@@ -1,0 +1,21 @@
+package sec2;
+
+public class StudentEx {
+
+	public static void main(String[] args) {
+
+		Student stu = new Student();
+		
+		stu.setName("김기태");
+		stu.setKor(90);
+		stu.setEng(80);
+		stu.setMat(70);
+		stu.getName();
+		stu.calcTot();
+		stu.calcAvg();
+		stu.calcHak();
+		stu.calcRes();
+
+	}
+
+}
