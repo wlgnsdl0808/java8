@@ -1,0 +1,16 @@
+package sec2;
+
+import	java.util.Date;
+import java.util.Scanner;
+
+public class BorardEx {
+
+	public static void main(String[] args) {
+
+		int idx;
+		String title;
+		String 
+
+	}
+
+}
