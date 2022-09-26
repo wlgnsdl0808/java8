@@ -1,0 +1,12 @@
+package sec;
+
+public class Parent {
+	int field1;
+	String field2;
+	
+	public Parent(){ }
+	public int Parent(int field1) {
+		this(field1, "kim");
+	}
+	
+}

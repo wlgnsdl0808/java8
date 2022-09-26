@@ -1,0 +1,8 @@
+package kr.co.thejoeun.CarDTO;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.println("원주율 : "+FinalClass1.PI);
+	}
+}
+
